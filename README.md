@@ -8,6 +8,8 @@ Due to new Google Cloud policies, shared credentials in public repos are automat
 
 The analysis for the Items searches are in the PDF.
 
+It was decided to search for typical Wines, using the name of the grapes, instead of "chromecast" or other portable devices.
+
 There's a published Tableau dashboard in the Tableau Public. You can access in [THIS LINK](https://public.tableau.com/app/profile/helio.assakura/viz/ItemSearches-Case2/ItemSearches-Case2). There's also a `.twbx` in the Github Repo that can be imported in the Tableau Desktop.
 
 The dashboard consists on a few graphs and tables that track the results from the extractions in the API. Due to free Tableau constraints, we had to download the data from BigQuery and convert to Excel file to import in Tableau.

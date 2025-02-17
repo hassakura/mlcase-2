@@ -6,11 +6,11 @@ Due to new Google Cloud policies, shared credentials in public repos are automat
 
 ## Answers to the Case - APIs
 
-The analysis for the Items searches are in the PDF.
+The analysis for the Items searches is an One Pager that can be accessed through [THIS LINK](https://public.tableau.com/app/profile/helio.assakura/viz/ItemSearches-Case2/Analysis-Case2).
 
 It was decided to search for typical Wines, using the name of the grapes, instead of "chromecast" or other portable devices.
 
-There's a published Tableau dashboard in the Tableau Public. You can access in [THIS LINK](https://public.tableau.com/app/profile/helio.assakura/viz/ItemSearches-Case2/ItemSearches-Case2). There's also a `.twbx` in the Github Repo that can be imported in the Tableau Desktop.
+There's another published Tableau dashboard in the Tableau Public that enables you to filter the Search Terms. You can access in [THIS LINK](https://public.tableau.com/app/profile/helio.assakura/viz/ItemSearches-Case2/ItemSearches-Case2). There's also a `.twbx` in the Github Repo that can be imported in the Tableau Desktop.
 
 The dashboard consists on a few graphs and tables that track the results from the extractions in the API. Due to free Tableau constraints, we had to download the data from BigQuery and convert to Excel file to import in Tableau.
 
@@ -53,7 +53,7 @@ One example of response can be found here: https://api.mercadolibre.com/sites/ML
 There are extra files / folders:
 
 1. **Item Searches - Case 2.twbx**: Tableau twbx file with the Dashboard and Datasources
-2. **/images**: Contains the images of the Tableau dashboard
-3. **items.csv**: Final CSV file with the items JSON response converted as a BigQuery table.
-4. **items_attributes.csv**: Final CSV file with the items attributes column converted as a BigQuery table.
-5. **PDF**: Final analysis for the Items data from the API.
+2. **items_analysis.png**: Final analysis for the Items data from the API. You can access the Dashboard for better visualization in [THIS LINK](https://public.tableau.com/app/profile/helio.assakura/viz/ItemSearches-Case2/Analysis-Case2).
+3. **/images**: Contains the images of the Tableau dashboards
+4. **items.csv**: Final CSV file with the items JSON response converted as a BigQuery table.
+5. **items_attributes.csv**: Final CSV file with the items attributes column converted as a BigQuery table.

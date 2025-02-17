@@ -1,4 +1,4 @@
-# Case 1 - SQL
+# Case 2 - APIs
 
 ## Credentials
 

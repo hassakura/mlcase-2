@@ -42,6 +42,8 @@ Run the script with:
 
     python3 get_items.py 
 
+In case it doesn't run with python3, try running with python and you should be fine
+
 The script should use a JSON file with the credentials to access the API, and they are in the **credentials.json** file.
 
 It generates 2 CSVs with the extracted data from the mercadolibre's API and inserts into tables in BigQuery.
